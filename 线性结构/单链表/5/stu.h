@@ -3,7 +3,11 @@ status ListLength(SqList L)
 {
     // 请在这里补充代码，完成本关任务
     /********** Begin *********/
-
+    if(L.elem == NULL)
+        return INFEASIBLE;
+    
+    return L.length;
+    // 线性表L的长度
 
     /********** End **********/
 }
